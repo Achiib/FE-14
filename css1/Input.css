@@ -1,0 +1,142 @@
+@font-face {
+    font-family: alk-sanet;
+    src: url('../../font/alk-sanet-webfont.woff');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 1000px;
+    font-family: alk-sanet;
+    background: linear-gradient(90deg, rgba(126,208,68,1) 0%, rgba(50,194,150,1) 50%, rgba(69,104,252,1) 100%);
+}
+
+.container{
+    position: absolute;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 1100px;
+    height: 900px;
+    background-color: #fff;
+}
+
+.getintouch{
+    display: inline-block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 190px;
+    margin-top: 13px;
+    font-size: 30px;
+}
+
+form{
+    position: relative;
+    width: 250px;
+    background: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+form input{
+    
+    padding: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(226, 239, 240, 0.981);
+}
+
+.flexs{
+    display: flex;
+    width: 1070px;
+    margin-left: 145px;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.email{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.label1{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 144px;
+    top: 2px;
+    padding: 25px;
+}
+
+.label2{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 649px;
+    top: 2px;
+    padding: 25px;
+}
+
+.other{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 168px;
+    top: 146px;
+}
+
+.website{
+    display: inline-block;
+    margin-left: -83px;
+}
+
+form textarea{
+    padding: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(226, 239, 240, 0.981);
+    margin-left: 61px;
+}
+
+.message{
+    display: inline-block;
+    margin-left: -30px;
+    margin-top: 50px;
+    overflow-y: hidden;
+}
+
+.message1{
+    display: inline-block;
+    margin-left: -573px;
+}
+
+.textarea{
+    display: block;
+    width: 700px;
+}
+
+.submit{
+    display: block;
+    background: linear-gradient(90deg, rgba(126,208,68,1) 0%, rgba(50,194,150,1) 50%, rgba(69,104,252,1) 100%);
+    font-size: 30px;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 444px;
+}
+
+.number{
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left:900px;
+    color: #fff;
+}

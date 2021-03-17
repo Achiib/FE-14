@@ -1,0 +1,219 @@
+@font-face {
+    font-family: alk-sanet;
+    src: url('../../font/alk-sanet-webfont.woff');
+}
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    height: 1800px;
+    margin: 0;
+    /* background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(19,19,152,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+/* p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.2;
+    font-family: alk-sanet;
+    text-shadow: -4px -4px 8px black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    background-color: red;
+} */
+
+.container{
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    width: 33.3333%;
+    /* background-color: red; */
+    border: 1px solid #607d8b1f;
+    /* border-right: 9px dashed green;
+    border-bottom: 1px dotted #000; */
+    /* outline: 3px solid green; */
+    outline-offset: 0px;
+    transition: all .9s;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 3px #0302022b;
+    border-radius: 7px;
+    /* max-width: 100%;
+    min-width: 500px; */
+    
+    /* border-bottom-right-radius: 73px; */
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+    height: 450px;
+    /* background-color: hsl(211deg 100% 50%); */
+    background-color: black;
+    /* background-image: url(../../img/camel.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+/* .inline-li{
+    display: inline-block;
+    padding: 25px 13px;
+}
+
+nav{
+    background-color: rgba(6, 12, 24, 0.952);
+    box-shadow: 3px 3px 3px #0f0e1329;
+}
+
+.navbar{
+    margin-left: auto;
+    margin-block-start: 0;
+    text-align: right;
+    margin-block-end: 0;
+    padding-left: 0;
+}
+
+
+.nav-link{
+    font-family: alk-sanet;
+    color: #fff;
+}
+
+.logo{
+    display: inline-block;
+    width: 80px;
+}
+
+.logimg{
+    width: 111px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.content{
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+} */
+
+
+
+
+nav{
+    background-color: hsl(210deg 10% 23%);
+}
+
+.inline-li{
+    display: inline-block;
+    padding: 25px 13px;
+}
+
+.navbar{
+    margin-left: auto;
+    margin-block-start: 0;
+    text-align: right;
+    margin-block-end: 0;
+    padding-left: 0;
+}
+
+.nav-link{
+    font-family: alk-sanet;
+    color: hsl(220deg 2% 68%);
+    font-size: 15px;
+}
+
+.bootstrap{
+    display: inline-block;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.bootstrap1{
+    width: 111px;
+    /* height: 64px; */
+    color: white;
+    object-fit: cover;
+}
+
+.content{
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+}
+
+
+.firsttext{
+    text-align: center;
+    margin-top: 130px;
+    color: hsl(0deg 0% 100%);
+    font-size: larger;
+}
+
+.features{
+    margin-top: 100px;
+    margin-left: 750px;
+}
+
+svg{
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+
+.wrap{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: auto;
+    position: sticky;
+    top: 25px;
+}
+
+.wrapper{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scrolltop{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: alk-sanet;
+  src: url('../../font/alk-sanet-webfont.woff');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-image: url("https://www.abcn.com/images/photos/3550_furnished-office-for-lease.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  background-color: rgba(0, 0, 0, 0.398);
+  display: flex;
+}
+
+nav ul {
+  display: inline-flex;
+  margin-left: auto;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #fff;
+  padding-left: 7px;
+  font-family: alk-sanet;
+  padding: 5px 9px;
+  margin-right: 15px;
+  }
+
+  .bg-image{
+    background-image: url("https://www.abcn.com/images/photos/3550_furnished-office-for-lease.JPG");
+  }
